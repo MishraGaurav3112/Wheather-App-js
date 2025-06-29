@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("./images/weather-forecast-interface-modern-digital-display-showing-weather-next-days-tilt-shift-lens-used-to-outline-176077556.webp");
+
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    border: 2px solid rebeccapurple;
+    margin: auto;
+    text-align: center;
+    padding: 40px 35px;
+    border-radius: 20px;
+    background-image: linear-gradient(145deg,#00feba, #5b548a);
+    color: #fff;
+
+}
+.searchBox{
+    width: 100%;
+  
+    align-items: center;
+    justify-content: space-between;
+}
+.searchBox input{
+   flex: 1;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 16px;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 30px;
+}
+.searchBox button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+
+    cursor: pointer;
+}
+.searchBox button img{
+    width: 15px;
+    margin-top: 4px;
+}
+.cards .weather img{
+   width: 20px;
+} 
+
+.card .weather .temp{
+    font-size: 90px;
+}
+.card .weather .city{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.details .col{
+    display: flex;
+    align-items: center;
+}
+.details .col img{
+    height: 50px;
+}
+.details .col .disc .humidity{
+   font-weight: 400;
+   font-size: 30px;
+}
+.details .col .disc .wind{
+   font-weight: 400;
+   font-size: 30px;
+}
+ .disc  .text{
+    font-size: 12px;
+}
+.weather{
+    display: none;
+}
+.eror{
+   font-size: 15px;
+   text-align: left;
+   margin-left: 10px;
+   margin-top: 10px;
+   color: red;
+   display: none;
+}
